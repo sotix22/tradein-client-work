@@ -1,0 +1,39 @@
+{
+  "name": "cli",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chart.js": "^3.3.2",
+    "core-js": "^3.6.5",
+    "element-plus": "^1.2.0-beta.3",
+    "express": "^4.17.3",
+    "sass": "^1.49.0",
+    "semantic-ui-css": "^2.4.1",
+    "serve-static": "^1.14.2",
+    "vue": "^3.2.21",
+    "vue-chartjs": "^3.5.1",
+    "vue-router": "^4.0.0-0",
+    "vue-the-mask": "^0.11.1",
+    "vue-video": "^0.1.7",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.14",
+    "@vue/cli-plugin-router": "~4.5.14",
+    "@vue/cli-plugin-vuex": "~4.5.14",
+    "@vue/cli-service": "~4.5.14",
+    "@vue/compiler-sfc": "^3.0.0",
+    "sass-loader": "^8.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
